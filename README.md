@@ -1,2 +1,2 @@
 # elite-mod-tau
-Test build for the Tau implementation
+Framework for the Tau implementation
