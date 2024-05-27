@@ -1,0 +1,19 @@
+
+simvis_attributes =
+{
+	vehicle_physics				= 1,
+
+	vehicle_width				= 4.85,		-- Width of the wheelbase in meters
+	vehicle_length				= 6.75,		-- length of the wheelbase in meters
+	vehicle_nr_wheels			= 5,		-- number of axles, will be evenly spaced along the length
+	vehicle_spring_constant			= 0.4,		-- 0.0 is soft, 1.0 is max hardness
+	vehicle_damper_constant			= 0.2,		-- time it takes for the springs to settle - low = short, high = long
+	vehicle_wheel_travel			= 0.35,		-- the amount of change the wheel can travel in each direction up/down
+	vehicle_acceleration_factor		= 0.3,		-- how sensitive the vehicle is to change (high = spongy, low = stiff)
+	vehicle_gravity				= 1.0,		-- normal earth gravity = 1
+	vehicle_debug_render			= 0,		-- shows simulation, 0 = off, 1 = On
+	vehicle_smoothness			= 8,		-- the higher the smoother (minimum 1)
+	vehicle_render_offsetX			= 0,		-- x offset of rendered model from wheel base center
+	vehicle_render_offsetY			= 0,		-- y offset
+	vehicle_render_offsetZ			= 0,		-- z offset
+}
